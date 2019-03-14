@@ -95,6 +95,7 @@ def main():
     # open csv file
     src_file = open('resources/src.csv', 'r+')
     src_data = csv.reader(src_file)
+    # 0 = class number, 1 = sec number, 2 = sec type, 3-7 = days, 8 = time, 9 = prof name
     src = [row for row in src_data]
 
     # create new excel workbook / sheets
