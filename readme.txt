@@ -1,0 +1,2 @@
+- Get the .csv class list from the Registrar's Office and filter it till it looks exactly like example.csv
+- Name it src.csv and put it in the resources folder and then run the script, you'll need openpyxl installed
